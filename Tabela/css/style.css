@@ -1,0 +1,126 @@
+*{
+    box-sizing:border-box;
+      margin:0;
+      padding:0;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu-Light;
+    src: url(../fonts/Ubuntu/Ubuntu-Light.ttf);
+}
+
+body{
+    background-color: #0C0C0E;
+}
+
+h1{
+    color: #9146FF;
+    font-family: Ubuntu-Light;
+    font-size: 8vw;
+    text-align: center;
+    margin-top: 3vw;
+}
+
+input{
+    background-color: #16161A;
+    border-color: #9146FF;
+    border-radius: 2.5vw;
+    margin-left: 12.5%;
+    width: 75%;
+    margin-top: 4vw;
+    height: 10vw;
+    font-family: Ubuntu;
+    color: #AEAEB0;
+}
+
+button{
+    background-color: #9146FF;
+    border-color: #16161A;
+    border-radius: 2.5vw;
+    margin-left: 12.5%;
+    width: 75%;
+    margin-top: 4vw;
+    height: 10vw;
+    font-family: Ubuntu;
+    color: white;
+}
+
+.tabelinha{
+    font-size: 25%;
+    border: 1px;
+    background-color: #16161A;
+    border-color: #9146FF;
+    margin-left: 12.5%;
+    width: 75%;
+    margin-top: 4vw;
+    height: 10vw;
+    font-family: Ubuntu-Light;
+    color: #AEAEB0;
+}
+
+@media only screen and (min-width: 1024px) {
+    *{
+      box-sizing:border-box;
+        margin:0;
+        padding:0;
+}
+
+body{
+    background-color: #0C0C0E;
+}
+
+h1{
+    color: #9146FF;
+    font-family: Ubuntu-Light;
+    font-size: 4.5vw;
+    text-align: center;
+    margin-top: 1vw;
+}
+
+input{
+    background-color: #16161A;
+    border-color: #9146FF;
+    border-radius: 1vw;
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 2vw;
+    height: 6vw;
+    font-family: Ubuntu;
+    color: #AEAEB0;
+    font-size: 2.5vw;
+    
+}
+
+button{
+    background-color: #9146FF;
+    border-color: #16161A;
+    border-radius: 1vw;
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 2vw;
+    height: 6vw;
+    font-family: Ubuntu;
+    color: white;
+    font-size: 2.5vw;
+}
+
+.tabelinha{
+    font-size: 100%;
+    text-align: center;
+    border: 1px;
+    background-color: #16161A;
+    border-color: #9146FF;
+    margin-left: 12.5%;
+    width: 75%;
+    margin-top: 2vw;
+    height: 10vw;
+    font-family: Ubuntu-Light;
+    color: #AEAEB0;
+}
+
+}
